@@ -6,7 +6,7 @@
 /*   By: tyago-ri <tyago-ri@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/29 00:01:28 by tyago-ri          #+#    #+#             */
-/*   Updated: 2022/07/29 00:01:56 by tyago-ri         ###   ########.fr       */
+/*   Updated: 2022/08/10 21:04:46 by tyago-ri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ void	smart_sleep(long int time, t_gen *gen)
 	{
 		if (check_died(gen) || check_win(gen))
 			break ;
-		usleep(100);
+		usleep(200);
 	}
 }
 
