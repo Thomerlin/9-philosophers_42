@@ -6,7 +6,7 @@
 /*   By: tyago-ri <tyago-ri@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/26 08:10:36 by tyago-ri          #+#    #+#             */
-/*   Updated: 2022/07/29 00:11:15 by tyago-ri         ###   ########.fr       */
+/*   Updated: 2022/08/20 17:11:42 by tyago-ri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int	print_error(char *string)
 {
 	printf("Error: %s\n", string);
-	return (0);
+	exit (EXIT_FAILURE);
 }
 
 int	main(int argc, char **argv)

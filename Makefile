@@ -6,7 +6,7 @@
 #    By: tyago-ri <tyago-ri@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/07/29 00:00:11 by tyago-ri          #+#    #+#              #
-#    Updated: 2022/07/29 00:18:28 by tyago-ri         ###   ########.fr        #
+#    Updated: 2022/08/20 17:18:23 by tyago-ri         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME		=	philo
 
 INC			=	./include/
 
-CC			=	gcc
+CC			=	cc
 CFLAGS		=	-Werror -Wall -Wextra -I$(INC) -pthread
 
 SRCS		=	$(shell find ./sources -name "*.c")
